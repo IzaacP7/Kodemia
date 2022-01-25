@@ -1,0 +1,387 @@
+body {
+    background-color: #141414;
+    /*background:linear-gradient(100deg, rgba(255, 2, 2, 0.596), rgba(12, 98, 211, 0.795),rgba(4, 0, 255, 0.671))*/
+
+}
+#title {
+    color: #3A5174;
+}
+
+#subtitle {
+    color: #7C98B5;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.lyrics {
+    color: #777B96;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 40;
+}
+
+.button {
+    background-color: #75AC5B;
+    color: white;
+    text-size-adjust: 10;
+    border-radius: 2px;
+    margin-left: 67px;
+}
+
+span {
+    color: #89ABD8;
+    font-size: 8;
+    margin: 67px;
+}
+
+#bodycolor {
+    background-color: #E0E8FF;
+}
+
+.body-color {
+    background-color: #D1EAFF;
+}
+
+#sub-cv {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 40;
+}
+
+.lyrics-cv {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-weight: 40;
+}
+
+.ul-cv {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*BANDERAS*/
+.banderas {
+    background-color:white;
+    width: 35%;
+    height: 250px;
+    margin: 50px;
+    float: left;
+}
+
+/*FRANCIA**************************************************/
+/*Con CSS*/
+.france {
+    width: auto;
+    height: auto;
+}
+
+.blue {
+    width: 33.3%;
+    height: 250px;
+    background-color: #002395;
+    display: inline-block;
+}
+
+.white {
+    display: inline-block;
+    width: 33.3%;
+    height: 250px;
+    background-color: white;
+}
+
+.red {
+    display: inline-block;
+    width: 33.3%;
+    height: 250px;
+    background-color: #ED2939;
+}
+
+/*Con FLEX*/
+.france_flex {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.blue_flex {
+    width: 33.3%;
+    height: 250px;
+    background-color: #002395;
+    display: inline-block;
+    /*justify-content: center; centra los contenidos */
+    /*flex-direction: column; lo hace de manera vertical*/
+}
+
+.white_flex {
+    display: inline-block;
+    width: 33.3%;
+    height: 250px;
+    background-color: white;
+}
+
+.red_felx {
+    display: inline-block;
+    width: 34%;
+    height: 250px;
+    background-color: #ED2939;
+}
+
+/*GERMANY**************************************************/
+/*Con CSS*/
+.germany {
+    width: auto;
+    height: auto;
+}
+
+.black {
+    width: 100%;
+    height: 85px;
+    background-color: #000000;  
+}
+
+.redgermany {
+    width: 100%;
+    height: 85px;
+    background-color: #FF0000;
+}
+
+.gold {
+    width: 100%;
+    height: 85px;
+    background-color: #FFCC00;
+}
+
+/*Con FLEX*/
+.germany_flex {
+    width: auto;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+.black_flex {
+    width: 100%;
+    height: 200px;
+    background-color: #000000;
+    /*justify-content: center; centra los contenidos */
+    /*flex-direction: column; lo hace de manera vertical*/
+}
+
+.redgermany_flex {
+    background-color: #FF0000;
+    width: 100%;
+    height: 200px;
+}
+
+.gold_flex {
+    width: 100%;
+    height: 200px;
+    background-color: #FFCC00;
+}
+
+/*JAPAN**************************************************/
+/*Con CSS*/
+.japan {
+    width: auto;
+    height: 250px;
+    border: .5px solid cadetblue;
+    background-color: white;
+}
+
+.left_japan {
+    width: 33%;
+    height: 250px;
+    display: inline-block;
+}
+
+.red_japan {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    border-radius: 50px;
+    margin: 0px 40px;
+}
+
+.center_japan {
+    width: auto;
+    height: 170px;
+    display: inline-block;
+}
+
+
+/*Con FLEX*/
+.japan_flex {
+    width: auto;
+    height: 250px;
+    border: .5px solid cadetblue;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red_japan_flex {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    border-radius: 50px;
+}
+
+/*MEXICO**************************************************/
+/*Con CSS*/
+.mexico {
+    width: auto;
+    height: auto;
+}
+
+.green {
+    width: 33.3%;
+    height: 250px;
+    background-color: #006847;
+    display: inline-block;
+}
+
+
+.white_mex {
+    display: inline-block;
+    width: 36.7%;
+    height: 150px;
+    background-color: white;
+    vertical-align: 60px;
+}
+
+.center_mex {
+    display: inline-block;
+    height: 100px;
+    background-color: white;
+    vertical-align: 10px;
+    margin: 0px 0px 0px 40px;
+}
+
+.center_mex img {
+    width: 120px;
+}
+
+.red_mex {
+    display: inline-block;
+    width: 30%;
+    height: 250px;
+    background-color: #ED2939;
+}
+
+
+/*Con FLEX*/
+.mex_flex {
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+.green_mex_flex {
+    width: 33.3%;
+    height: 250px;
+    background-color: #006847;
+}
+
+.center_mex_flex {
+    width: 33.3%;
+    height: 250px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.center_mex_flex img {
+    width: 120px;
+}
+
+/*INGLATERRA**************************************************/
+/*Con CSS*/
+.england {
+    width: auto;
+    height: auto;
+}
+
+.start_england {
+    width: 248.8px;
+    height: 50px;
+    background-color: red;
+    display: inline-block;
+}
+
+.center_england {
+    display: inline-block;
+    width: 50px;
+    height: 250px;
+    background-color: red;
+    vertical-align: 60px;
+}
+
+.horizontal_england {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    vertical-align: 40px;
+}
+
+.vertical_england {
+    display: inline-block;
+    width: 248.8px;
+    height: 50px;
+    background-color: red;
+}
+
+/*Con FLEX*/
+.england_flex {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.vertical_england_flex {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+.horizontal_england_flex {
+    width: 100px;
+    height: 250px;
+    background-color: red;
+}
+
+.center_england_flex {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+/*MENU*/
+
+.button_menu {
+    background: #141414;
+    border: 1px solid #777777;
+    color: #777777;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 11px 5px ;
+    padding: 0 16px;
+    line-height: 35px;
+    min-width: 55px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer; 
+}
+
+.button_menu:hover {
+    color: white;
+    border: 1px solid white;
+    box-shadow: 0 1px 1px rgba(248, 248, 248, 0.2);
+}
+
+.menu_center {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

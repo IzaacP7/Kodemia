@@ -1,0 +1,117 @@
+body {
+    display: flex;
+    flex-wrap: wrap ;
+    background:linear-gradient(30deg, rgba(220, 20, 60, 0.479), rgba(30, 74, 131, 0.514),rgba(205, 92, 92, 0.507))
+}
+
+.pokemon_card_one {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    /*align-items: baseline;*/
+    font-family: 'Roboto', sans-serif;
+    border-radius: 30px;
+    background-color: #96CDA5;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.pokemon_card_two {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFE1DF;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.pokemon_card_three {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #BBCDD5;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.pokemon_card_four {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #D9B78F;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.pokemon_background {
+    height: 150px;
+    width: 150px;
+    background-color: #DEEFE7;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+img {
+    width: 150px;
+}
+
+.pokemon_data {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /*gap: 10px; le da un espacio entre elementos*/
+}
+
+.pokemon_name {
+    font-size: 30px;
+}
+
+.pokemon_type {
+    font-size: 15px;
+}
+
+.button {
+    background: #17949493;
+    border: 1px solid #DEEFE7;
+    color: #DEEFE7;
+    border-radius: 5px;
+    font-size: 15px;
+    margin: 11px 5px ;
+    padding: 0 16px;
+    line-height: 35px;
+    min-width: 55px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer; 
+}
+
+.button:hover {
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0 1px 1px rgba(248, 248, 248, 0.2);
+}
+
+.button_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

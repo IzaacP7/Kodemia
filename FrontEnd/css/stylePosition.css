@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+header {
+    border:  1px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    position: fixed; /* toma el viewport como referencia y tu podras dar el posicionamiento apartir del ViewPt*/
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+p {
+    margin: 0px; /* quita los margenes */
+}
+
+.non_relative {
+    margin: 50px 0px;
+    border: 1px solid black;
+}
+.relative {
+    border: 1px solid black;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+footer {
+    position: relative;
+    z-index: 1;
+    border:  1px solid black;
+    padding: 10px;
+    left: o;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+    position: fixed; /* toma el viewport como referencia y tu podras dar el posicionamiento apartir del ViewPt*/
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    position: fixed;
+    top: 0;
+}
+
+.circle {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-color: brown;
+}
+
+/*sticky*/
+.circle2 {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    background-color: brown;
+}
+
+
+/* Transitions */
+
+@keyframes my-animation {
+   
+    0% { transform: rotate(0deg)}
+    100% { transform: rotate(0deg)}
+   
+    /* 0% {left: 0px;}
+    100% {left: 90%;} */
+
+
+    /* from {left: 0px;}
+    25% {left: 25px}
+    50% {left: 50px}
+    75% {left: 75px}
+    25% {left: 100px} */
+}
+
+.square {
+    position: fixed;
+    left: 90%;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background-color: lightseagreen;
+    animation-name: my-animation;
+    animation-duration: 5s;
+    transform: rotate(45deg);
+    /* transition: width 5s, height 2s, border_radius 3s; */
+}
+
+/* .square:hover {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+} */

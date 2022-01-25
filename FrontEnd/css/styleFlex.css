@@ -1,0 +1,29 @@
+.main {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: baseline;
+}
+
+.a, .b, .c, .d {
+    width: 25%;
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+}
+
+.a {
+    height:  50%;
+} 
+.b {
+    height:  75%;
+}
+.c {
+    height:  25%;
+}
+.d {
+    height:  40%;
+}

@@ -1,0 +1,37 @@
+.man{
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100px;
+}
+
+[disabled] {
+    background-color: red;
+}
+
+.style_button {
+    border: 1px solid black;
+    background-color: lightgray;
+    width: 100px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+div.style_button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+input {
+    width: 200px;
+}
+
+input::placeholder {
+    color: green;
+}
+
+label[for^="ac"] {
+    font-size: 50px;;
+}
