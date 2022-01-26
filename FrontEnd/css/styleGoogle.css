@@ -5,9 +5,22 @@
     font-family: Arial, sans-serif;
 }
 
+header {
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.text_header {
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 50px;
+}
+
 section {
     width: 100%;
-    height: 100vh;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,13 +97,6 @@ section .main .center {
     box-shadow: 0 1px 1px rgb(0, 0, 0, 0.2);
 }
 
-.text_header {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    margin: 20px 50px;
-}
-
 .img_perfil {
     width: 40px;
     height: 40px;
@@ -113,4 +119,14 @@ section .main .center {
 .mic {
     width: 20px;
     margin: -10px 0px 0px 0px;
+}
+
+footer {
+    height: 100px;
+    align-items: flex-start;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }
