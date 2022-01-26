@@ -80,18 +80,23 @@ ul {
     box-shadow: 0 1px 1px rgba(248, 248, 248, 0.2);
 }
 
-img:hover {
+.card:hover .user_name {
+    color: white;
+    cursor: pointer;
+}
+
+.card:hover img {
+    background-color: white;
     border: 3px solid white;
-    margin: 0;
+    cursor: pointer;
 }
 
 .img_netflix {
     width: 100px;
     margin: 10px 60px;
 }
+
 .img_mas {
     width: 160px;
 }
-.change:hover {
-    background-color: white;
-}
+
