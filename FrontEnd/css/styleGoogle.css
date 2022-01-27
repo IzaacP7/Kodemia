@@ -5,16 +5,16 @@
     font-family: Arial, sans-serif;
 }
 
-header {
+/* header {
     height: 100px;
     display: flex;
-    justify-content: flex-end;
     align-items: flex-end;
-}
+} */
 
 .text_header {
     display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
     margin: 20px 50px;
 }
 
@@ -26,7 +26,7 @@ section {
     align-items: center;
 }
 
-section .main {
+section .main_center {
     width: 500px;
     display: flex;
     justify-content: center;
@@ -35,13 +35,13 @@ section .main {
 }
 
 
-section .main .buttons {
+section .main_center .buttons {
     width: 100%;
     position: relative;
     margin-top: 20px;
 }
 
-section .main .buttons .box_input {
+section .main_center .buttons .box_input {
     width: 100%;
     height: 44px;
     padding: 13px;
@@ -54,11 +54,11 @@ section .main .buttons .box_input {
     padding-right: 45px;
 }
 
-section .main .buttons .box_input:hover {
+section .main_center .buttons .box_input:hover {
     box-shadow: 1px 1px 2px rgb(0, 0, 0, 0.4);
 }
 
-section .main .buttons .iconos {
+section .main_center .buttons .iconos {
     width: 100%;
     display: flex;  
     justify-content: space-between;
@@ -69,7 +69,7 @@ section .main .buttons .iconos {
     padding: 12px 20px;
 }
 
-section .main .center {
+section .main_center .center {
     display: flex;
     padding-top: 20px;
 }

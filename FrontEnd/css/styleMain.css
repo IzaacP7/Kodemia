@@ -1,0 +1,151 @@
+.body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #141414;
+}
+
+header {
+    width: 100%;
+    background: #141414;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn_main {
+    display: none;
+}
+
+header label {
+    display: none;
+    width: 47px;
+    height: 47px;
+    padding: 10px;
+    border-right: 1px solid #777777;
+    border-radius: 6px;
+}
+
+header label:hover {
+    background: rgba(88, 88, 88, 0.250);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+.main ul{
+    display: flex;
+    height: 53px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-bottom: .5px solid #777777;
+    justify-content: center;
+}
+
+.main li {
+    /* flex-grow: 1; */
+    height: 50px;
+    border-right:  1px solid #777777;
+    border-radius: 6px;
+}
+
+.main li a {
+    display: block;
+    padding: 15px 20px;
+    color: #777777;
+    text-decoration: none;
+}
+
+.main li:hover {
+    background: rgba(88, 88, 88, 0.400);
+    border: .5px solid white;
+}
+
+.main li a:hover {
+    color: white;
+}
+
+@media (max-width:680px) {
+
+    header label {
+        display: block;
+    }
+    
+    .main {
+        position: absolute;
+        background: #141414;
+        width: 25%;
+        display: none;
+        /*  transition: all 0.5s; */
+    }
+
+    .main ul {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .main li {
+        border-bottom: 1px solid #777777;
+    }
+
+    .main li:hover {
+        border-bottom: 1px solid white;
+    }
+
+    #btn_main:checked ~ .main {
+        display: block;
+    }
+
+    #btn_main:checked ~ label img:last-child {
+        display: block;      
+    }
+
+    #btn_main:checked ~ label img:first-child {
+        display: none;      
+    }
+
+    label img:last-child {
+        display: none;
+    }
+}
+
+@media (max-width:380px) {
+
+    header label {
+        display: block;
+    }
+    
+    .main {
+        position: absolute;
+        background: #141414;
+        width: 38%;
+        display: none;
+    }
+
+    .main ul {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .main li {
+        border-bottom: 1px solid #777777;
+    }
+
+    .main li:hover {
+        border-bottom: 1px solid white;
+    }
+
+    #btn_main:checked ~ .main {
+        display: block;
+    }
+
+    #btn_main:checked ~ label img:last-child {
+        display: block;      
+    }
+
+    #btn_main:checked ~ label img:first-child {
+        display: none;      
+    }
+
+    label img:last-child {
+        display: none;
+    }
+}
