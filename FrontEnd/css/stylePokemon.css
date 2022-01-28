@@ -67,7 +67,7 @@ body {
     display: flex;
 }
 
-img {
+div img {
     width: 150px;
 }
 
@@ -113,5 +113,114 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width:780px) {
+
+    .pokemon_card_one  {
+        width: 175px;
+        height: 175px;
+        border-radius: 15px;
+        margin: 25px;
+    }
+
+    .pokemon_card_two  {
+        width: 175px;
+        height: 175px;
+        border-radius: 15px;
+        margin: 25px;
+    }
+
+    .pokemon_card_three  {
+        width: 175px;
+        height: 175px;
+        border-radius: 15px;
+        margin: 25px;
+    }
+
+    .pokemon_card_four  {
+        width: 175px;
+        height: 175px;
+        border-radius: 15px;
+        margin: 25px;
+    }
+
+    .pokemon_background {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+    }
+
+    div img {
+        width: 75px;
+    }
+
+    .pokemon_name {
+        font-size: 18px;
+    }
+    
+    .pokemon_type {
+        font-size: 8px;
+    }
+    
+}
+
+/* Falta ajustar centro de items */
+@media (max-width:412px) {
+
+    .pokemon_card_one  {
+        display: flex;
+        width: 87.5px;
+        height: 87.5px;
+        border-radius: 7.5px;
+        margin: 12.5px;
+        padding: 0px;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .pokemon_card_two  {
+        width: 87.5px;
+        height: 87.5px;
+        margin: 12.5px;
+        border-radius: 7.5px;
+    }
+
+    .pokemon_card_three  {
+        width: 87.5px;
+        height: 87.5px;
+        margin: 12.5px;
+        border-radius: 7.5px;
+    }
+
+    .pokemon_card_four  {
+        width: 87.5px;
+        height: 87.5px;
+        margin: 12.5px;
+        border-radius: 7.5px;
+    }
+
+    .pokemon_background {
+        height: 37.5px;
+        width: 37.5px;
+        border-radius: 50%;
+    }
+
+    div img {
+        width: 37.5px;
+    }
+
+    .pokemon_name {
+        font-size: 9px;
+    }
+    
+    .pokemon_type {
+        font-size: 4px;
+    }
+    
+}
+
+@media (max-width:280px) {
 
 }
