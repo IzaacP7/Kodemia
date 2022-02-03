@@ -1,0 +1,141 @@
+body {
+  font-family: "Spartan", sans-serif;
+  background: #F0FAFB;
+}
+
+nav svg {
+  background: #5ba4a4;
+  width: 100vw;
+  height: 5rem;
+}
+
+main {
+  height: 100vh;
+  background: #F0FAFB;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cardPrincipal {
+  width: 60%;
+  height: 15%;
+  border-top: 1px solid #FFFFFF;
+  box-shadow: 4px 15px 10px #DCEFF1;
+  border-radius: 5px;
+  background: #FFFFFF;
+}
+
+#borderLeft {
+  border-left: 4px solid #5ba4a4;
+}
+
+.cardLeft {
+  height: 0%;
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cardCenter {
+  width: 40%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.cardCenter .firstText {
+  height: 50%;
+  padding: 0%;
+  margin: 0%;
+  font-size: 13px;
+  font-weight: 700;
+  color: #5ba4a4;
+}
+.cardCenter .firstText span {
+  width: 30%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+.cardCenter .firstText div {
+  width: 40%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+  justify-content: space-around;
+}
+.cardCenter .firstText div a {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 10px;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0%;
+  margin: 0%;
+  color: white;
+  border: none;
+}
+.cardCenter .firstText div #new {
+  width: 35%;
+  background: #5ba4a4;
+  padding: 0%;
+  margin: 0%;
+}
+.cardCenter .firstText div #featured {
+  width: 50%;
+  color: white;
+  background: #2A3A39;
+}
+.cardCenter .secondText {
+  width: 100%;
+  height: 35%;
+  padding: 0%;
+  margin: 0%;
+  font-size: 17px;
+  font-weight: 700;
+}
+.cardCenter .thirdText {
+  width: 100%;
+  height: 50%;
+  padding: 0%;
+  margin: 0%;
+}
+.cardCenter .thirdText span {
+  font-size: 0.8rem;
+  padding: 0%;
+  margin: 0%;
+  font-size: 15px;
+  font-weight: 500;
+  color: rgba(128, 128, 128, 0.767);
+}
+
+.cardRight {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.cardRight div {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.cardRight div button {
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  border: 0.5px solid #F0F9F8;
+  border-radius: 5px;
+  background: #F0F9F8;
+  color: #5ba4a4;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=style.css.map */
