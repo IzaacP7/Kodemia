@@ -103,6 +103,14 @@ header div button:hover {
   border: 1px solid black;
 }
 
+#ab {
+  border: 1px solid blue;
+}
+
+#ar {
+  border: 1px solid red;
+}
+
 .margen {
   width: 200px;
 }
@@ -402,6 +410,100 @@ div scroll-container ul {
   justify-content: center;
 }
 
+.cards {
+  height: 9%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FAFAFA;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  border-radius: 0.25rem;
+  margin: 0.2% 0 0 0;
+  padding: 0%;
+}
+.cards .cardBody {
+  display: flex;
+  flex-direction: column;
+  height: 95%;
+  width: 100%;
+}
+.cards .cardBody .profile {
+  width: 95%;
+  height: 25%;
+  display: flex;
+  align-items: flex-start;
+  margin: 5px;
+}
+.cards .cardBody .profile .imgProfile {
+  width: 6%;
+  display: flex;
+  justify-content: center;
+}
+.cards .cardBody .profile .datas {
+  width: 50%;
+  height: 50%;
+}
+.cards .cardBody .profile .datas .name {
+  font-size: 15px;
+  margin: 0%;
+}
+.cards .cardBody .profile .datas .date {
+  margin: 0%;
+  font-size: 12px;
+}
+.cards .cardBody .textCard {
+  width: 99%;
+  height: 70%;
+  margin: 0px 5px;
+}
+.cards .cardBody .textCard .subTitleCard {
+  display: flex;
+  text-decoration: none;
+  color: black;
+  margin: 0 5.6%;
+  cursor: pointer;
+  font-size: 29px;
+  font-weight: bold;
+  height: 40%;
+  width: 95%;
+}
+.cards .cardBody .textCard div {
+  width: 95%;
+  height: 50%;
+  margin: 0 5.5%;
+}
+.cards .cardBody .textCard div .hastagText {
+  width: 90%;
+  height: 50%;
+  margin: 0;
+  margin-left: 3px;
+}
+.cards .cardBody .textCard div div {
+  width: 95%;
+  height: 55%;
+  display: flex;
+  justify-content: start;
+  margin: 0;
+}
+.cards .cardBody .textCard div div .cardComments {
+  display: flex;
+  justify-content: flex-start;
+}
+.cards .cardBody .textCard div div .btnAllCard {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.cards .cardBody .textCard div div .btnAllCard .btCard {
+  background: rgba(128, 128, 128, 0.356);
+  border-radius: 4px;
+  border: none;
+}
+
 .btnRelevant {
   height: 40px;
   width: 100px;
@@ -436,93 +538,14 @@ div scroll-container ul {
   color: #3B49DF;
 }
 
-.cardBody {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  height: 150px;
-  width: 620px;
-}
-
 .dataProfile {
   display: flex;
   width: 400px;
   height: 50px;
 }
 
-.profile {
-  display: flex;
-  align-items: flex-end;
-  margin: 0px 10px;
-  width: 150px;
-  height: 100vh;
-}
-
-.imgProfile {
-  width: 40px;
-}
-
-.datas {
-  height: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.name {
-  font-size: 15px;
-  margin: 0%;
-}
-
-.date {
-  margin: 0%;
-  font-size: 12px;
-}
-
-.textCard {
-  width: 590px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 5px 10px;
-}
-
-.subTitleCard {
-  display: flex;
-  text-decoration: none;
-  color: black;
-  margin: 0px 40px;
-  cursor: pointer;
-  font-size: 29px;
-  font-weight: bold;
-  height: 45px;
-  width: 566px;
-}
-
 .subTitleCard:hover {
   color: #3B49DF;
-}
-
-.hastagCard {
-  display: flex;
-  justify-content: space-around;
-}
-
-.btnAllCard {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.btCard {
-  background: rgba(128, 128, 128, 0.356);
-  border-radius: 4px;
-  border: none;
-}
-
-.cardComments {
-  display: flex;
-  justify-content: flex-start;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,68 @@
+.logo_medium
+{
+    max-height: 1rem;
+}
+
+.medium-input-search
+{
+    border: none;
+}
+
+.medium-input-search:focus
+{
+    outline: none;
+}
+
+.asideLeft-bottom a
+{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#757575;
+}
+
+.asideLeft-bottom a:hover
+{
+    color: #757575;
+}
+
+.autor-img
+{
+    width: 3rem;
+    height: 3rem;
+    object-fit:fill;
+}
+
+.autor-description
+{
+    font-size: 11px;
+    color:#757575;
+}
+
+.autor-name
+{
+    font-size: 16px;
+}
+
+.autor-name, .autor-description, .autor-img, .twitter-button
+{
+    cursor: pointer;
+}
+
+.recomendations a
+{
+    color: black;
+    font-weight: lighter;
+    background-color: lightgray;
+}
+
+.recomendations a:hover
+{
+    transition: 0.3s;
+    background-color: grey;
+    color: black;
+}
+
+.isaac_menu
+{
+  min-width: 1rem;
+}
