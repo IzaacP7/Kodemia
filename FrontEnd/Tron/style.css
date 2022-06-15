@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
+/* :root{
+    --color-blue: #1e9bff;
+    --color-pink: #ff1867;
+    --color-green: #6eff3e;
+    --color-orange: #ff8b3e;
+} */
 *{
     margin: 0;
     padding: 0;
@@ -34,6 +39,9 @@ a:hover{
     background: var(--clr);
     color: var(--clr);
     box-shadow: 0 0 25px var(--clr);
+    /* background: var(--color-blue);
+    color: var(--color-blue);
+    box-shadow: 0 0 20px var(--color-blue); */
 }
 
 a::before{
